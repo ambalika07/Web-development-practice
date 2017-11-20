@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<sitemanifest>
-  <IisApp path="D:\Web-development-practice-master\Web-development-practice-master\Project3\Project2\obj\Release\Package\PackageTmp" />
-  <setAcl path="D:\Web-development-practice-master\Web-development-practice-master\Project3\Project2\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="D:\Web-development-practice-master\Web-development-practice-master\Project3\Project2\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
-</sitemanifest>
