@@ -1,0 +1,228 @@
+﻿body {
+    background-color: #F3F3F3;
+}
+
+#form1 {
+    background: #F3F3F3;
+    height: 100%;
+}
+
+.image1 {
+    width: 100%;
+}
+
+#top_bar {
+    background: #fff;
+    margin: 0px !important;
+}
+
+.top_bar_img1 img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.top_bar_img2 img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    margin-left: 500px;
+}
+
+.top_bar_img2 b {
+    margin: 10px 0 0 550px;
+}
+
+.image1 img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.logo1 img {
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    width: 150px;
+    height: 150px;
+    margin-left: 600px;
+}
+
+h1 span {
+    position: absolute;
+    font: bold 44px/45px Helvetica, sans-serif;
+    color: white;
+    top: 200px;
+    text-align: center;
+    padding-left: 300px;
+}
+
+.dropdown1 .dropdown-toggle::after {
+    float: right;
+    margin-top: 8px;
+}
+
+.dropdown2 .dropdown-toggle::after {
+    display: none;
+}
+
+
+.dropdown1 .btn-secondary {
+    position: absolute;
+    top: 420px;
+    width: 200px;
+    margin-left: 300px;
+    background-color: #f7eedc;
+    color: #1b1e21;
+    border-color: #f7eedc;
+    text-align: left;
+}
+
+.dropdown2 .btn-secondary {
+    position: absolute;
+    top: 420px;
+    width: 480px;
+    margin-left: 510px;
+    background-color: #f7eedc;
+    color: #1b1e21;
+    border-color: #f7eedc;
+    text-align: left;
+}
+
+.dropdown1 .btn-secondary:hover {
+    color: black;
+    background-color: #f7eedc;
+    border-color: #f7eedc;
+}
+
+.dropdown2 .btn-secondary:hover {
+    color: black;
+    background-color: #f7eedc;
+    border-color: #f7eedc;
+}
+
+.sendMessage {
+    margin: 5px;
+}
+
+.row {
+    margin: 50px !important;
+}
+
+.first_head {
+    margin: 40px 0 0 55px;
+}
+
+.contact2 {
+    background-color: white;
+    position: relative;
+}
+
+.contact1 {
+    background-color: white;
+    position: relative;
+    height: 100%;
+}
+
+.col-sm div {
+    position: absolute;
+    top: 10px;
+    margin-left: 220px;
+}
+
+footer {
+    background-color: #33373D;
+    color: #ADB0B6;
+    position: relative;
+    height: 350px;
+}
+
+.footer1 {
+    margin: 20px !important;
+}
+
+.footer2 > div {
+    text-align: center;
+    margin-left: 90px;
+}
+
+    .footer2 > div > h4 {
+        text-align: left;
+    }
+
+    .footer2 > div > ul {
+        list-style-type: none;
+        float: left;
+        text-align: left;
+        padding: 0;
+    }
+
+.footer2 a {
+    color: #cdcdcd;
+    text-decoration: none;
+}
+
+    .footer2 a:hover {
+        color: #cdcdcd;
+        text-decoration: none;
+    }
+
+footer img {
+    border-radius: 2px;
+    width: 60px;
+    height: 60px;
+    margin: 15px 0 0 125px;
+}
+
+.form-group {
+    width: 80%;
+    margin: 30px 0 0 120px;
+}
+
+#exampleInputEmail1 {
+    margin: 5px;
+}
+
+#exampleFormControlSelect1 {
+    margin: 5px;
+}
+
+#exampleFormControlTextarea1 {
+    margin: 5px;
+}
+
+.countryContact {
+    background-color: white;
+    margin: 0 50px 0 50px !important;
+}
+
+.countryContact2 {
+    background-color: white;
+    margin: 0 50px 50px 50px !important;
+}
+
+.countryHead {
+    max-width: 100% !important;
+    text-align: center;
+}
+
+.countryContact .col {
+    text-align: center;
+}
+
+.countryContact2 .col {
+    text-align: center;
+}
+
+.Header1 {
+    width: 100%;
+    height: 40px;
+    background-color: #cb202d;
+    padding: 5px 0 5px 30px;
+}
+.collections {
+    background: #fff;
+}
+
+

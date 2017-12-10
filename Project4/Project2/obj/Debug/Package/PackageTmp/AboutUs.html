@@ -1,0 +1,126 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="About us, Helping people discover great places around them." />
+    <title>Zomato</title>
+    <link rel="stylesheet" type="text/css" href="styles/AboutUs.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles/css/bootstrap.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles/css/bootstrap.min.css" media="screen" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div class="Header1">
+                <a href="Default.aspx"><img src="https://b.zmtcdn.com/images/logo/zomato_white.svg" alt="Restaurants in India, United Kingdom, UAE, South Africa, Philippines, New Zealand, Qatar &amp; Sri Lanka. Delhi Restaurants, Mumbai Restaurants, Gurgaon Restaurants, London Restaurants, Dubai Restaurants, Bangalore Restaurants, Pune, Abu Dhabi, Colombo, Hyderabad, Kolkata, Chennai, Sharjah, Manila, Auckland, Wellington, Cape Town, Johannesburg Restaurants" /></a>
+            </div>
+            <div class="row" id="top_bar">
+                <div class="col top_bar_img1">
+                    <img src="images/app.png" alt="No image found" />
+                    <b>Get the App</b>
+                </div>
+                <div class="col top_bar_img2">
+                    <img src="images/order.png" alt="No image found" />
+                    <b>Order Food</b>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="row about1">
+            <div class="image1">
+                <img src="images/about.jpg" alt="No image found" />
+                <h1><span>Our mission is to ensure <br /> nobody has a bad meal.</span></h1>
+            </div>
+            </div>
+
+
+            <div class="row aboutUs">
+                <p>
+                    <b>We do this by</b> <br /><br />
+
+                    <b>Helping people discover great places around them.</b> <br />
+                    Our team gathers information from every restaurant on a regular basis to ensure our data is fresh. Our vast community of food lovers share their reviews and photos, so you have all that you need to make an informed choice. <br /><br />
+
+                    <b>Building amazing experiences around dining.</b> <br />
+                    Starting with information for over 1 million restaurants (and counting) globally, we're making dining smoother and more enjoyable with services like online ordering and table reservations.<br /><br />
+
+                    <b>Enabling restaurants to create amazing experiences.</b> <br />
+                    With dedicated engagement and management tools, we're enabling restaurants to spend more time focusing on food itself, which translates directly to better dining experiences.<br /> <br />
+                </p>
+
+            </div>
+
+            <div class="row WorldMap">
+                <p>
+                    <b>And we're doing it globally</b> <br /> <br />
+                    From Vancouver to Auckland, Zomato is used by millions every day to decide where to eat in over 10,000 cities across 24 countries. In a few years, we should be able help point you to a great place to eat no matter what part of the world you're in.
+                </p>
+
+                <div id="googleMap" style="height:400px;"></div>
+
+                <script>
+                    function myMap() {
+                        var mapProp = {
+                            center: new google.maps.LatLng(51.508742, -0.120850),
+                            zoom: 5,
+                        };
+                        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                    }
+                </script>
+
+                <iframe id="MapFrame" style="width:100%;"  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJiwQ2i7UYDTkR-KNL1yKHPj0&key=AIzaSyBzH9tmr1mhq1zMPDOBCX3QnmvGqS2btvg"></iframe>
+
+            </div>
+
+       
+
+
+</form>
+    <footer>
+        <a href="Default.aspx"><img src="images/Zomato-Logo.png" alt="No image found" /></a>
+        <div class="row footer1">
+            <div class="col-sm footer2">
+                <div>
+                    <h4>About Zomato</h4>
+                    <ul class="footer-links">
+                        <li><a href="AboutUs.html">About Us</a></li>
+                        <li><a href="#">Culture</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm footer2">
+                <div>
+                    <h4>For Foodies</h4>
+                    <ul class="footer-links">
+                        <li><a href="CodeOfConduct.html">Code of Conduct</a></li>
+                        <li><a href="AboutUs.html">About Us</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Verified Users</a></li>
+                        <li><a href="Blogger.html">Blogger Help</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Mobile Apps</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm footer2">
+                <div>
+                    <h4>For Restaurants</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Add a Restaurant</a></li>
+                        <li><a href="#">Claim you listing</a></li>
+                        <li><a href="#">Business App</a></li>
+                        <li><a href="#">Business Owner Guidelines</a></li>
+                        <li><a href="#">Business Blog</a></li>
+                        <li><a href="#">Restaurant Widgets</a></li>
+                        <li><a href="#">Products for Businesses</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ZomatoProj4ConnectionString-Web.config Connection String" description="ZomatoProj4ConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=zomatoproj4.database.windows.net;Initial Catalog=ZomatoProj4;Persist Security Info=True;User ID=ambalikakatoch;Password=Password1270@" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ambal\\StudioProjects\\Web-development-practice\\Project4\\Project2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ZomatoProj4ConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
