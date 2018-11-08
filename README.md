@@ -1,2 +1,3 @@
 # Web-development-practice
-Fundamentals of HTML5 and CSS3
+
+This project presents a broad coverage of web design and development skills, practices and technologies focusing on ASP.net and Microsoft Azure. Includes HTML 5, CSS (cascading style sheets) and JavaScript and basics of web site usability and appearance and basic visual design tools. In this project, we managing an enterprise web site to optimize availability, handle demand variability, and improve its findability and search rankings. This covers website marketing, monetization, and lastly, website analytics and traffic patterns and learnt how to use that data to target desired customer segments.
